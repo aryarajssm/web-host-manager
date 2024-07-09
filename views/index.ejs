@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebHostManger</title>
+    <link rel="stylesheet" href="stylesheets/style.css" >
+</head>
+<body>
+   <nav class="nav">
+    <div class="nav-logo">
+        <p>Welcome to WebHostManger</p>
+    </div>
+    <div class="nav-button" id="navi">
+        <button  class="btn" id="loginBtn"><a style="color:blue" href="/login">Sign In</a></button>
+        <button  class="btn" id="registerBtn"><a style="color:blue" href="/index">Sign Up</a></button>
+    </div>
+   </nav>
+   <div class="wrapper">
+    <div class="center">
+        <p class="paragraph">Have an account? <a href="/login">Login</a></p>
+    </div>
+    <h1 class="heading "style="color:white"><a href="/index">Sign Up</a></h1>
+    <form class="register"  action="/register" method="post">
+        <input class="a" type="text" placeholder="Name" name="name">
+        <input class="a" type="email" placeholder="Email" name="email">
+        <input class="a" type="password" placeholder="Password" name="password">
+        <input class="a" type="submit" value="Register">
+    </form>
+   </div>
+</body>
+</html>

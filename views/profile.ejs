@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: rgb(50, 153, 185);
+            color:white;
+        }
+        .nav {
+            display: flex;
+            flex-direction: row;
+            background-color:chocolate; /* Changed for better visibility */
+            justify-content: flex-end;
+            height:70px;
+        }
+        .nav-item {
+            margin:20px;
+            padding-left: 20px;
+            font-size: 1.2rem;
+            color: blue;
+        }
+        .main{
+            display: flex;
+            flex-wrap:wrap;
+        }
+        .content{
+            background-color: chocolate;
+            margin:20px;
+            border-radius: 10px;
+            padding:20px;
+        }
+        .heading{
+            margin: auto;
+            /* background-color: rgb(4, 255, 0); */
+            display: block;
+            border: 2px  solid chocolate;
+            height:40px;
+            width:80%;
+            margin-top: 20px;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <!-- <div class="nav-item"><a href="/index">Home</a></div>
+        <div class="nav-item"><a href="/index">Home</a></div> -->
+        <div class="nav-item logout"><a href="/logout">Log Out</a></div>
+    </nav>
+    <h2 class="heading">The plans you has buyied</h2>
+    <div class="main">
+        <div class="content">
+            <h2 style="color: blue">Plan</h2>
+            <ul>
+                <li><p>Buying price:Rs 400</p></li>
+                <li><p>20 websited hosted</p></li>
+                <li><p>120 gb storage utilised</p></li>
+                <li><p>Domain is free</p></li>
+                <li> <p>Free email</p></li>
+                <li><p>Free CDN</p></li>
+                <li><p>Expire after 1 month</p></li>
+                <li><p>Dedicated IP Address</p></li>
+                <li><p>Weekly backup available</p></li>
+                <li><p>Recharge price is same as buying price</p></li>
+            </ul>
+        </div>
+        <div class="content">
+            <ul>
+                <h2 style="color: blue">Plan</h2>
+                <li><p>Buying price:Rs 600</p></li>
+                <li><p>40 websited hosted</p></li>
+                <li><p>120 gb storage utilised</p></li>
+                <li><p>Domain is free</p></li>
+                <li> <p>Free email</p></li>
+                <li><p>Free CDN</p></li>
+                <li><p>Expire after 2 month</p></li>
+                <li><p>Dedicated IP Address</p></li>
+                <li><p>Weekly backup available</p></li>
+                <li><p>Recharge price is same as buying price</p></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
